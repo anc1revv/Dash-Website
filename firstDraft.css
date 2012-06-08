@@ -157,6 +157,20 @@ body{
 	left:804px;
 }*/
 
+.appStore{
+	width:422px;
+	height:146px;
+	display: block;
+	background: url(images/appStoreWhite.png);
+	position: relative;
+	top: 150px;
+	left:1005px;
+}
+
+.appStore:hover{
+	background-image:url(images/appStoreGray.png);
+}
+
 .facebook{
 	width:17px;
 	height:36px;
