@@ -1,0 +1,227 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face{
+	font-family: plutoBold;
+	src: url(fonts/PlutoBold.otf);
+}
+
+@font-face{
+	font-family: plutoLight;
+	src: url(fonts/PlutoLight.otf);
+}
+
+
+body{
+	background: url(images/khakiBackground.png);
+	min-height:1600px;
+}
+
+
+/*orangeBox*/
+
+#orangeBox{
+	background-image:url(images/orangeBackground1.png);
+	background-repeat:no-repeat;
+	position:relative;
+}
+
+
+
+#logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logoDash{
+	position:relative;
+	bottom:190px;
+	left:426px;
+}
+
+#logoFast{
+	position:relative;
+	bottom:132px;
+	left:56px;
+}
+/*
+#snappyText{
+	font-family:plutoLight;
+	color:white;
+	font-size:34px;
+	line-height:45px;
+	
+	text-align:center;
+	padding-top:75px;
+	padding-right:0px;
+}*/
+
+#snappyTextPic{
+	position:relative;
+	left:110px;
+	top:-5px;
+	
+}
+
+/*#response{
+	font-family:plutoBold;
+	color:white;
+	font-size:37px;
+		
+}*/
+
+#responsePic{
+	position:relative;
+	left:200px;
+	top:100px;
+}
+
+#whiteLine{
+	position:relative;
+	left:125px;
+	bottom:-195px;
+}
+
+#iphone{
+	position:relative;
+	left:145px;
+	bottom:-320px;
+}
+
+#videoScreenshot{
+	position:relative;
+	left:244px;
+	bottom:80px;
+}
+
+
+#appStoreWhite{
+	position:relative;
+	left:550px;
+	bottom:27px;
+}
+
+/*non orange block*/
+#explainText{
+	position:relative;
+	left:130px;
+	top:165px;
+}
+
+/*
+#facebookGray{
+	position:relative;
+	top:183px;
+	left:804px;
+}*/
+
+.facebook{
+	width:17px;
+	height:36px;
+	display:block;
+	background: url(images/facebookGray.png);
+	position:relative;
+	top:125px;
+	left:1005px;
+}
+
+.facebook:hover{
+	background-image:url(images/facebookBlue.png);
+}
+
+/*#twitterGray{
+	position:relative;
+	top:183px;
+	left:779px;
+}*/
+
+.twitter{
+	width:51px;
+	height:36px;
+	display:block;
+	background:url(images/twitterGray.png);
+	position:relative;
+	top:162px;
+	left:922px;
+}
+
+.twitter:hover{
+	background-image: url(images/twitterBlue.png);
+}
+
+ul#menu{
+	position:relative;
+	top:220px;
+	right:-80px;
+}
+
+ul#menu li{
+	display:inline;
+	margin-right:38px;
+}
+
+ul#menu li a{
+	text-decoration:none;
+	font-family:PlutoBold;
+	color:#666666;
+	font-size:16px;
+	
+}
+
+ul#menu li a:hover{
+	color:orange;
+}
+
+#copyright{
+	position:relative;
+	top:203px;
+	left:380px;
+}
+
+.container{
+	width:1092px;
+	margin:0 auto;
+	position:relative;
+}
